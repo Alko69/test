@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#square {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+.big-rect {
+    width: 50%;
+    height: 100%;
+}
+
+.big-square {
+    height: 50%;
+    flex-wrap: wrap;
+}
+
+.little-square {
+    height: 50%;
+    width: 50%;
+}
+
+.mid-rect {
+    height: 33.33%;
+}
+
+.little-rect {
+    width: 50%;
+    height: 100%;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.salmon {
+    background-color: salmon;
+}

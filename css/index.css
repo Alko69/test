@@ -1,0 +1,44 @@
+/* Css du main */
+main {
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main>div {
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+#imageDiv {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paramDiv {
+    height: 40%;
+}
+
+.rangeDiv, .radiusDiv {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#paramDiv>div {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    border: 1px solid black;
+}
+

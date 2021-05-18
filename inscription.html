@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Fichier HTML</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="list.html">Recette</a></li>
+                <li><a href="users.html">Utilisateurs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Inscrivez-vous !</h1>
+    <form action="./page.html">
+        <div>
+            <label for="surname">Nom :</label>
+            <input type="text" id="surname" name="surname" placeholder="Martin, Mystère, etc...">
+        </div>
+        <div>
+            <label for="firstname">Prénom :</label>
+            <input type="text" name="firstname" id="firstname" value="Jon" required>
+        </div>
+        <div>
+            <label for="age">Age :</label>
+            <input type="number" min="0" max="100">
+        </div>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="birthday">Date de naissance :</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <div>
+            <p>Genre :</p>
+            <input type="radio" name="gender" id="woman">
+            <label for="woman">Femme</label>
+            <br>
+            <input type="radio" name="gender" id="man">
+            <label for="man">Homme</label>
+        </div>
+        <div>
+            <p>Genre musique :</p>
+            <input type="checkbox" name="music" id="" checked>
+            <label for="">Rock</label>
+            <br>
+            <input type="checkbox" name="music" id="">
+            <label for="">Classique</label>
+        </div>
+        <input type="submit" value="Envoyer !">
+        <p>Bon jour tout le monde !</p>
+    </form>
+</body>
+</html>

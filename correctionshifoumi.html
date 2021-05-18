@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/shifoumi.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/shifoumi.css">
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li class="green"><a href="index.html">Accueil</a></li>
+                <li class="green"><a href="inscription.html">Inscription</a></li>
+                <li class="green"><a href="list.html">Recette</a></li>
+                <li class="green"><a href="users.html">Utilisateurs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="gameboard">
+            <div class="score">
+                <p>Player : <span id="playerScore">0</span></p>    
+                <p>Computer : <span id="computerScore">0</span></p>
+            </div>
+            <div class="block" id="playerBoard">
+                <img src="./img/pierre.png" data-playerChoice="rock">
+                <img src="./img/papier.png" data-playerChoice="paper">
+                <img src="./img/ciseaux.png" data-playerChoice="scizzor">
+            </div>
+            <div class="block"></div>
+            <div class="block" id="computerBoard">
+                <img src="./img/pierre.png" class="none" data-computerChoice="rock">
+                <img src="./img/papier.png" class="none" data-computerChoice="paper">
+                <img src="./img/ciseaux.png" class="none" data-computerChoice="scizzor">
+            </div>
+            <div class="block" id="result"></div>
+        </div>
+        <div></div>
+    </main>
+</body>
+</html>

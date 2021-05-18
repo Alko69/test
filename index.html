@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li class="green test"><a href="index.html">Accueil</a></li>
+                <li class="green"><a href="inscription.html">Inscription</a></li>
+                <li class="green"><a href="list.html">Recette</a></li>
+                <li class="green"><a href="users.html">Utilisateurs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="resize">
+            <div id="imageDiv">
+                <img src="./img/chococo.png" alt="">
+            </div>
+            <div id="paramDiv">
+                <div>
+                    <div class="rangeDiv">
+                        <p>0</p>
+                        <input type="range" id="range" min="0" max="100" value="50">
+                        <p>100</p>
+                    </div>
+                    <p class="rangeValue">50</p>
+                </div>
+                <div>
+                    <div class="radiusDiv">
+                        <p>&#9633</p>
+                        <input type="range" id="radius" min="0" max="50" value="0">
+                        <p>&#9711</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

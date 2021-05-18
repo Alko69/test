@@ -1,0 +1,30 @@
+main {
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameboard {
+    height: 700px;
+    width: 700px;
+}
+
+.block {
+    height: 22%;
+}
+
+.score {
+    height: 12%;
+}
+
+img {
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 70%;
+}
+
+#playerBoard {
+    display: flex;
+    justify-content: space-between;
+}
