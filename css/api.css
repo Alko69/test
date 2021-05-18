@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Star_wars2.svg/1200px-Star_wars2.svg.png);
+}
+
+aside{
+    width: 30%;
+    height: 100%;
+}
+
+main{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+
+}
+li{
+    list-style: none;
+    margin-left: 30%;
+    border: solid black 1px;
+
+}
+
+li:hover{
+    background-color: lightblue;
+}
+
+.none{
+    display: none;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
